@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(__dirname));
 
 app.get("/", (req, res) => {
-  res.status(200).send("Hello World!");
+  res.status(200).send("Hello Mr. Aris!");
 });
 
 app.listen(PORT, () => {
