@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(__dirname));
 
 app.get('/', (req, res) => {
-    res.status(200).send('Hello World, Mr.Jacky');
+    res.status(200).send('Hello World, Mr.Jacky!');
 });
 
 app.listen(PORT, () => {
